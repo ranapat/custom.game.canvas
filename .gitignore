@@ -1,8 +1,6 @@
 # hidden directories
 **/.git
-**/.grunt
 **/.npm
-**/.vscode
 
 # directories
 **/node_modules

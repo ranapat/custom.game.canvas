@@ -1,3 +1,11 @@
+# Custom Game Canvas
+
+Simple Game in es6 with pure canvas drawing.
+
+## Example life-cycle with canvas drawing and custom animation loops.
+
+## This is an example - use just for fun.
+
 #### `npm run open-dev`
 The same as npm run dev, but opens the browser
 
