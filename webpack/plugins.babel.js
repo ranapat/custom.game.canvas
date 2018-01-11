@@ -39,7 +39,7 @@ export const production = [
   ...createHTMLPlugins({ htmlTitle: 'Some Test' }),
   new webpack.optimize.CommonsChunkPlugin(
     'vendor',
-    'kisura-customer-[name]-[hash].js',
+    'custom.canvas.game-[name]-[hash].js',
   ),
 ];
 
@@ -48,7 +48,7 @@ export const development = [
   ...createHTMLPlugins({ htmlTitle: 'DEV::Some Test' }),
   new webpack.HotModuleReplacementPlugin(),
   new WebpackNotifierPlugin({
-    title: 'Kisura DEV',
+    title: 'Custom Game Canvas DEV',
     icon: path.resolve(__dirname, '../shared/images/logos/favicon.png'),
     contentIcon: path.resolve(__dirname, '../shared/images/logos/favicon.png'),
     sound: 'Glass',
